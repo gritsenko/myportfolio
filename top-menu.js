@@ -1,8 +1,8 @@
 // header-component.js
 class TopMenu extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML = `
+  constructor() {
+    super();
+    this.innerHTML = `
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">Igor Gritsenko</a>
@@ -25,7 +25,7 @@ class TopMenu extends HTMLElement {
       </div>
     </nav>
         `;
-    }
+  }
 }
 
 customElements.define('top-menu', TopMenu);
