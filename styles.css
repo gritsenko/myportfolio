@@ -1,0 +1,12 @@
+/* styles.css */
+.card {
+    overflow: hidden; /* Ensure the card clips the image */
+  }
+  
+  .card-img-top {
+    transition: transform 0.3s ease; /* Apply transition to image */
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.1); /* Zoom in the image */
+  }
