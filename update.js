@@ -1,3 +1,12 @@
+/*
+Before running the script, make sure to install the necessary dependencies by running:
+
+Copy code
+npm install axios
+
+node fetchData.js YOUR_API_KEY
+*/
+
 const fs = require('fs');
 const axios = require('axios');
 
