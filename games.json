@@ -1,0 +1,145 @@
+{
+  "games": [
+    {
+      "url": "https://gritsenko.itch.io/drunking-ded",
+      "embed": {
+        "width": 854,
+        "height": 480,
+        "fullscreen": true
+      },
+      "published_at": "2022-07-01 19:58:09",
+      "id": 1598259,
+      "p_windows": false,
+      "created_at": "2022-07-01 19:55:10",
+      "p_linux": false,
+      "can_be_bought": false,
+      "published": true,
+      "short_text": "Physical shooter for gamejam",
+      "title": "Drunking Ded",
+      "p_osx": false,
+      "downloads_count": 0,
+      "cover_url": "https://img.itch.zone/aW1nLzkzNDkzMDEuanBn/315x250%23c/yNXIKc.jpg",
+      "classification": "game",
+      "type": "html",
+      "has_demo": false,
+      "min_price": 0,
+      "user": {
+        "id": 213599,
+        "cover_url": "https://img.itch.zone/aW1hZ2UyL3VzZXIvMjEzNTk5LzM2NTAyMy5qcGc=/100x100%23/NJ1pTw.jpg",
+        "url": "https://gritsenko.itch.io",
+        "username": "gritsenko",
+        "display_name": "Igor Gritsenko"
+      },
+      "purchases_count": 0,
+      "views_count": 71,
+      "p_android": false,
+      "in_press_system": false
+    },
+    {
+      "url": "https://gritsenko.itch.io/fluid-player-prototype",
+      "embed": {
+        "width": 640,
+        "height": 360,
+        "fullscreen": false
+      },
+      "published_at": "2022-07-01 21:17:53",
+      "id": 1598349,
+      "p_windows": false,
+      "p_osx": false,
+      "p_linux": false,
+      "can_be_bought": false,
+      "published": true,
+      "title": "Fluid Player Prototype",
+      "p_android": false,
+      "downloads_count": 0,
+      "cover_url": "https://img.itch.zone/aW1nLzkzNDk4MDQuanBn/315x250%23c/tk9aYT.jpg",
+      "type": "html",
+      "classification": "game",
+      "has_demo": false,
+      "min_price": 0,
+      "user": {
+        "id": 213599,
+        "cover_url": "https://img.itch.zone/aW1hZ2UyL3VzZXIvMjEzNTk5LzM2NTAyMy5qcGc=/100x100%23/NJ1pTw.jpg",
+        "url": "https://gritsenko.itch.io",
+        "username": "gritsenko",
+        "display_name": "Igor Gritsenko"
+      },
+      "purchases_count": 0,
+      "created_at": "2022-07-01 21:16:15",
+      "views_count": 57,
+      "in_press_system": false
+    },
+    {
+      "url": "https://gritsenko.itch.io/nort",
+      "embed": {
+        "width": 1024,
+        "height": 768,
+        "fullscreen": true
+      },
+      "published_at": "2016-08-01 14:40:02",
+      "id": 78125,
+      "p_windows": false,
+      "created_at": "2016-08-01 14:21:36",
+      "p_linux": false,
+      "can_be_bought": false,
+      "published": true,
+      "short_text": "Old school style billiard and puzzle",
+      "title": "Nort 2D: Cyber billiard",
+      "p_osx": false,
+      "downloads_count": 9,
+      "cover_url": "https://img.itch.zone/aW1hZ2UvNzgxMjUvMzY0OTkzLnBuZw==/315x250%23c/eR9utY.png",
+      "classification": "game",
+      "type": "html",
+      "has_demo": false,
+      "min_price": 0,
+      "user": {
+        "id": 213599,
+        "cover_url": "https://img.itch.zone/aW1hZ2UyL3VzZXIvMjEzNTk5LzM2NTAyMy5qcGc=/100x100%23/NJ1pTw.jpg",
+        "url": "https://gritsenko.itch.io",
+        "username": "gritsenko",
+        "display_name": "Igor Gritsenko"
+      },
+      "purchases_count": 0,
+      "views_count": 393,
+      "p_android": false,
+      "in_press_system": false
+    },
+    {
+      "url": "https://gritsenko.itch.io/pix2d",
+      "short_text": "Sprite editor for indie game developers",
+      "published_at": "2020-06-07 23:43:21",
+      "id": 665455,
+      "p_windows": false,
+      "created_at": "2020-06-07 22:57:17",
+      "p_linux": false,
+      "can_be_bought": false,
+      "published": true,
+      "p_android": false,
+      "title": "Pix2d Pro- Pixel Art Studio",
+      "views_count": 6144,
+      "downloads_count": 2108,
+      "p_osx": false,
+      "type": "default",
+      "classification": "tool",
+      "cover_url": "https://img.itch.zone/aW1nLzQ3MjQ5MzYuanBn/315x250%23c/PhCLP5.jpg",
+      "min_price": 0,
+      "user": {
+        "id": 213599,
+        "cover_url": "https://img.itch.zone/aW1hZ2UyL3VzZXIvMjEzNTk5LzM2NTAyMy5qcGc=/100x100%23/NJ1pTw.jpg",
+        "url": "https://gritsenko.itch.io",
+        "username": "gritsenko",
+        "display_name": "Igor Gritsenko"
+      },
+      "purchases_count": 4,
+      "has_demo": false,
+      "earnings": [
+        {
+          "amount": 3489,
+          "amount_formatted": "$34.89",
+          "currency": "USD"
+        }
+      ],
+      "in_press_system": false
+    }
+  ]
+}
