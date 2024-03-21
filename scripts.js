@@ -1,4 +1,4 @@
-$(document).ready(function() {
+//$(document).ready(function() {
     // Fetch JSON data from games.json file
     $.getJSON('games.json', function(data) {
       var games = data.games;
@@ -20,5 +20,5 @@ $(document).ready(function() {
         $('#game-cards').append(cardHtml);
       });
     });
-  });
+  //});
   
