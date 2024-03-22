@@ -10,3 +10,12 @@
   .card:hover .card-img-top {
     transform: scale(1.1); /* Zoom in the image */
   }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* This creates a circular shape */
+    margin-right: 20px; /* Adjust spacing as needed */
+    display: inline-block; /* Display image inline with paragraph */
+    vertical-align: middle; /* Align image vertically with paragraph */
+  }
