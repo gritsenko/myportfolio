@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Portfolio</title>
@@ -9,60 +11,91 @@
 </head>
 <body>
 
-  <top-menu>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Igor Gritsenko</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Igor Gritsenko</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-        </top-menu>
-
-  <header id="home" class="container text-center py-5">
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is where you showcase your work and skills.</p>
-  </header>
+    </div>
+  </nav>
 
   <section id="about" class="container py-5">
     <h2>About Me</h2>
-    <p>Write something about yourself here.</p>
+    <p>Hello! I'm Igor and I'm indie developer.</p>
   </section>
 
   <section id="portfolio" class="container py-5">
     <h2>Portfolio</h2>
     <div id="game-cards" class="row">
-      <!-- Game cards will be dynamically generated here -->
+
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://img.itch.zone/aW1nLzkzNDkzMDEuanBn/315x250%23c/yNXIKc.jpg" class="card-img-top" alt="Drunking Ded">
+          <div class="card-body">
+            <h5 class="card-title">Drunking Ded</h5>
+            <p class="card-text">Physical shooter for gamejam</p>
+            <a href="https://gritsenko.itch.io/drunking-ded" class="btn btn-primary" target="_blank">Play</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://img.itch.zone/aW1nLzkzNDk4MDQuanBn/315x250%23c/tk9aYT.jpg" class="card-img-top" alt="Fluid Player Prototype">
+          <div class="card-body">
+            <h5 class="card-title">Fluid Player Prototype</h5>
+            <p class="card-text"></p>
+            <a href="https://gritsenko.itch.io/fluid-player-prototype" class="btn btn-primary" target="_blank">Play</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://img.itch.zone/aW1hZ2UvNzgxMjUvMzY0OTkzLnBuZw&#x3D;&#x3D;/315x250%23c/eR9utY.png" class="card-img-top" alt="Nort 2D: Cyber billiard">
+          <div class="card-body">
+            <h5 class="card-title">Nort 2D: Cyber billiard</h5>
+            <p class="card-text">Old school style billiard and puzzle</p>
+            <a href="https://gritsenko.itch.io/nort" class="btn btn-primary" target="_blank">Play</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://img.itch.zone/aW1nLzQ3MjQ5MzYuanBn/315x250%23c/PhCLP5.jpg" class="card-img-top" alt="Pix2d Pro- Pixel Art Studio">
+          <div class="card-body">
+            <h5 class="card-title">Pix2d Pro- Pixel Art Studio</h5>
+            <p class="card-text">Sprite editor for indie game developers</p>
+            <a href="https://gritsenko.itch.io/pix2d" class="btn btn-primary" target="_blank">Play</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
   <section id="contact" class="container py-5">
     <h2>Contact Me</h2>
-    <p>You can reach me at your@email.com</p>
+    <p>You can not reach me if you don't know me</p>
   </section>
 
   <!-- Bootstrap JS and dependencies -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!-- Custom JavaScript -->
-  <script src="scripts.js"></script>
 
-  <script src="top-menu.js"></script>
-
-
-
-</body></html>
+</body>
+</html>
