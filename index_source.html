@@ -72,7 +72,9 @@
       {{#each games}}
       <div class="col-md-4">
         <div class="card mb-4">
-          <img src="{{ cover_url }}" class="card-img-top" alt="{{ title }}">
+          <a href="{{ url }}" target="_blank">
+            <img src="{{ cover_url }}" class="card-img-top" alt="{{ title }}">
+          </a>
           <div class="card-body">
             <h5 class="card-title">{{ title }}</h5>
             <p class="card-text">{{ short_text }}</p>
